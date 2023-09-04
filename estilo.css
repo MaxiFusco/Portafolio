@@ -321,7 +321,7 @@ html {
 #portfolio .fila .proyecto .info {
     position: absolute;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color:rgba(0, 0, 0, 0.8) ;
     color: #ff5080;
     width: 100%;
     padding: 10px;
@@ -333,6 +333,13 @@ html {
 #portfolio .fila .proyecto:hover .info {
     opacity: 1;
     bottom: 0;
+}
+.boton{
+    background-color: gray;
+    color:white;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 /* *********************/
@@ -358,9 +365,6 @@ footer a {
 /* *********************/
 
 @media screen and (max-width: 800px) {
-    .redes {
-        display: none;
-    }
     nav {
         display: none;
     }
